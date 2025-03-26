@@ -5279,3 +5279,12 @@ input.main-search-input::placeholder {
     transform: scale(2);
   }
 }/*# sourceMappingURL=style.css.map */
+
+
+.sub-menu {
+  max-height: 300px; /* Adjust the height as per your requirement */
+  overflow-y: auto; /* Enables scrolling when content overflows */
+  background-color: white; /* Optional: Background color */
+  border: 1px solid #ccc; /* Optional: Adds border for better visibility */
+  padding: 10px; /* Optional: Adds spacing inside the menu */
+}
