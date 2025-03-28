@@ -5284,7 +5284,20 @@ input.main-search-input::placeholder {
 .sub-menu {
   max-height: 300px; /* Adjust the height as per your requirement */
   overflow-y: auto; /* Enables scrolling when content overflows */
-  background-color: white; /* Optional: Background color */
+  background-color: black; /* Optional: Background color */
   border: 1px solid #ccc; /* Optional: Adds border for better visibility */
   padding: 10px; /* Optional: Adds spacing inside the menu */
+}
+
+.gap{
+  gap: 85px;
+}
+
+.brand__heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-decoration: underline;
 }
